@@ -43,11 +43,11 @@ const todoList = () => {
     new Date(new Date().setDate(dateToday.getDate() + 1))
   )
   
-  todos.add({ title: 'Submit assignment', dueDate: yesterday, completed: false })
+  todos.add({ title: 'pay bill', dueDate: yesterday, completed: false })
   todos.add({ title: 'Pay rent', dueDate: today, completed: true })
-  todos.add({ title: 'Service Vehicle', dueDate: today, completed: false })
-  todos.add({ title: 'File taxes', dueDate: tomorrow, completed: false })
-  todos.add({ title: 'Pay electric bill', dueDate: tomorrow, completed: false })
+  todos.add({ title: 'insurance', dueDate: today, completed: false })
+  todos.add({ title: 'home work', dueDate: tomorrow, completed: false })
+  todos.add({ title: 'work out', dueDate: tomorrow, completed: false })
   
   console.log("My Todo-list\n\n")
   
